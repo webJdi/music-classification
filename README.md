@@ -75,10 +75,11 @@ For this project, we **filtered** the dataset to only include:
 ---
 
 ## Results
-| Model  | Accuracy | Precision | Recall | F1-score |
-|--------|----------|-----------|--------|----------|
-| CNN    |    48%   |    50%    |   48%  |    49%   |
-| LSTM   |    50%   |    33%    |   50%  |    38%   |
+| Model  | Accuracy | Training Time | Params | 
+|--------|----------|-----------|--------|
+| CNN    |    99.11%   |    2min30s    |   5.3M |   
+| CNN-LSTM Hybrid  |    48.77%  |    55min    |   516K  |  
+| LSTM   |    50%   |    15min    |   555K  |    
 
 
 ---
